@@ -6,6 +6,7 @@ const filterSlice = createSlice({
         reducers: {
             filteredAnecdotes(state, action){
                 state = 'SET_FILTER'
+                console.log(action)
                 return action.payload
             }
         }
